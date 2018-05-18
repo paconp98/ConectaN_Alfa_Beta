@@ -7,7 +7,8 @@ package conectan;
 
 /**
  *
- * @author José María Serrano
+ * @author Francisco Nieves Pastor
+ * Trabajado sobre la versión base proporcionada por:
  * @version 1.3 Departamento de Informática. Universidad de Jáen
  *
  * Inteligencia Artificial. 2º Curso. Grado en Ingeniería Informática
@@ -473,7 +474,7 @@ public class AlfaBetaPlayer extends Player {
                             }
                             
                             // Asignamos una puntuación proporcional al número de fichas que son nuestras
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
                     
@@ -492,7 +493,7 @@ public class AlfaBetaPlayer extends Player {
                                     contador++;
                                 }
                             }
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
 
@@ -510,7 +511,7 @@ public class AlfaBetaPlayer extends Player {
                                     contador++;
                                 }
                             }
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
 
@@ -528,7 +529,7 @@ public class AlfaBetaPlayer extends Player {
                                     contador++;
                                 }
                             }
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
                     
@@ -545,7 +546,7 @@ public class AlfaBetaPlayer extends Player {
                                     contador++;
                                 }
                             }
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
                     
@@ -562,7 +563,7 @@ public class AlfaBetaPlayer extends Player {
                                     contador++;
                                 }
                             }
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
                     
@@ -579,7 +580,7 @@ public class AlfaBetaPlayer extends Player {
                                     contador++;
                                 }
                             }
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
 
@@ -596,7 +597,7 @@ public class AlfaBetaPlayer extends Player {
                                     contador++;
                                 }
                             }
-                            fichas += contador * 200;
+                            fichas += contador * 120;
                         }
                     }
                 }
